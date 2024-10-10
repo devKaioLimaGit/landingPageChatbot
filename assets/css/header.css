@@ -1,0 +1,56 @@
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  padding: 20px;
+  background-color: rgba(230, 222, 234, 0);
+  backdrop-filter: blur(5px);
+  color: #000;
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+
+.navbar {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.nav-link:hover {
+  background-color: #d7d2ea;
+  border-radius: 10px;
+  transition: 400ms ease-in-out;
+}
+
+.nav-start {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-button {
+  min-width: 160px;
+  border: none;
+  background-color: #2dac5c;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 600;
+}

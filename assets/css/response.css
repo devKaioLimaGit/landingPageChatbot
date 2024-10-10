@@ -1,0 +1,67 @@
+/* Media Queries */
+@media (max-width: 1200px) {
+  .main-section {
+    width: 80%;
+  }
+
+  .main-title {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .main-title {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
+  .nav-items {
+    display: none;
+  }
+
+  .nav-start {
+    justify-content: center;
+  }
+
+  .nav-button {
+    min-width: 140px;
+  }
+
+  .card-container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .main-title {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .nav-link {
+    padding: 10px;
+    font-size: 12px; /* Diminui o tamanho da fonte do nav */
+  }
+
+  .nav-button {
+    min-width: 120px;
+  }
+
+  .main-section {
+    height: auto; /* Permite que a altura se ajuste ao conteúdo */
+    padding: 10px; /* Reduz o padding */
+  }
+}
