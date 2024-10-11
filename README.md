@@ -10,10 +10,10 @@ This repository contains the source code for the chatbot landing page, designed 
 
 Here are some screenshots of the application:
 
-![Screenshot 1](./Imagens%20para%20README/1.png)  
+![Screenshot 1](./Images%20for%20the%20README/1.png)  
 
 
-![Screenshot 2](./Imagens%20para%20README/2.png)  
+![Screenshot 2](./Images%20for%20the%20README/2.png)  
 
 
 ## Getting Started
